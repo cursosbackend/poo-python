@@ -2,8 +2,8 @@ from abc import ABC
 
 
 
-class Vehiculo: 
-    def __init__(self, marca:str, modelo:str, anio:int):
+class Menu: 
+    def __init__(self, opciones):
         self.__marca = marca
         self.modelo = modelo
         self.anio = anio
